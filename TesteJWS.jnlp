@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+"
+	codebase="http://localhost:8888/testejws/" href="">
+
+	<information>
+	
+	</information>
+	
+	<update check="always"/>
+	
+	<security>
+		<all-permissions />
+	</security>
+	
+	<resources>
+		<jar href="" main="true">
+		<j2se version="1.8+" />
+	</resources>
+</jnlp>
