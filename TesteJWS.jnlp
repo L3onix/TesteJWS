@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jnlp spec="1.0+"
-	codebase="http://localhost:8888/testejws/" href="">
+	codebase="http://localhost:8888/testejws/" href="TesteJWS.jnlp">
 
 	<information>
-	
+		<title>TesteJWS</title>
+		<vendor>L3onix</vendor>
+		<description>Teste Java Web Start</description>
 	</information>
 	
 	<update check="always"/>
@@ -13,7 +15,8 @@
 	</security>
 	
 	<resources>
-		<jar href="" main="true">
+		<jar href="TesteJWS.jar" main="true" />
 		<j2se version="1.8+" />
 	</resources>
+	<application-desc main-class="Principal" />
 </jnlp>
